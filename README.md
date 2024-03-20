@@ -7,3 +7,7 @@ The new project is a logical continuation of the previously created application 
 
 ## Implementation
 
+1) The CircularBuffer, GraphMode and Utils classes remained unchanged.
+2) Changes in the StoreWrapper class are due to the fact that Compose uses its own specific classes to represent graphic elements such as _Path_ and _Point (Offset)_. Therefore, the __prepare...__ procedures have been changed, and variables of the specified types now refer not to _android.graphics.Path_ and _android.graphics.Point_, but to _androidx.compose.ui.graphics.Path_ and _androidx.compose.ui.geometry.Offset_. Pay attention on import directives on start of the file.
+3) The widget itself is implemented as the __@Composable GraphEcgWidget__ function in the _GraphicEchWidget.kt_ file.
+
