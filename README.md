@@ -1,2 +1,5 @@
-# Jetpack-Compose-ECG-Widget
-The repository contains the project https://github.com/mk590901/graph_widget: ported on Jetpack Compose the widget for visualization ECG.
+# Jetpack Compose ECG Widget
+
+## Introduction
+
+The presented project is an attempt to implement a widget for visualization of ECG using the Jetpack Compose extension for Android.
